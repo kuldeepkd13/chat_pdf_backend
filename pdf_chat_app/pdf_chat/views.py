@@ -1,4 +1,4 @@
-from django.http import JsonResponse
+from django.http import JsonResponse,HttpResponse
 from django.contrib import messages, auth
 from django.contrib.auth import login as auth_login
 from django.contrib.auth.models import User
@@ -16,6 +16,9 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 
 load_dotenv()
+
+def home(request):
+    return HttpResponse("hello")
 
 @csrf_exempt
 def register(request):
