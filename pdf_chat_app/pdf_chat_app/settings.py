@@ -55,7 +55,8 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    'https://127.0.0.1'    
+    'https://127.0.0.1',
+    'https://chat-pdf-backend.vercel.app/ ' 
 ]
 
 ROOT_URLCONF = 'pdf_chat_app.urls'
