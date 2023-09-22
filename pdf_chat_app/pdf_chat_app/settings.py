@@ -55,8 +55,6 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS =  True
 
 CORS_ALLOWED_ORIGINS = [
-    'https://127.0.0.1',
-    'http://127.0.0.1:5500/login.html',
     'http://127.0.0.1:5500',
 ]
 
@@ -104,11 +102,7 @@ DATABASES = {
 }}
 
 
-SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
-]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
