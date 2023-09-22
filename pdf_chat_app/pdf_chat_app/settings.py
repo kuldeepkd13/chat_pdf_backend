@@ -52,11 +52,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_ALL_ORIGINS =  True
 
 CORS_ALLOWED_ORIGINS = [
     'https://127.0.0.1',
-    'https://chat-pdf-backend.vercel.app/' 
+    'http://127.0.0.1:5500/login.html',
+    'http://127.0.0.1:5500',
 ]
 
 ROOT_URLCONF = 'pdf_chat_app.urls'
