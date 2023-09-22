@@ -95,10 +95,10 @@ DATABASES = {
 "default": {
     "ENGINE": "djongo",
     "CLIENT": {
-        "host": "mongodb+srv://kuldeep:kuldeep@cluster0.r9xhjxi.mongodb.net/zomato?retryWrites=true&w=majority",
+        "host": "mongodb+srv://kuldeep:kuldeep@cluster0.r9xhjxi.mongodb.net/chat?retryWrites=true&w=majority",
         "username": "kuldeep",
         "password": "kuldeep",
-        "name": "zomato",
+        "name": "chat",
         "authMechanism": "SCRAM-SHA-1",
     },
 }}
